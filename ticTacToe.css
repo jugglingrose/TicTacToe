@@ -38,6 +38,10 @@ div.box {
   height: 200px;
   width: 200px;
   vertical-align: middle;
+  line-height: 200px;
+  font-size: 50px;
+
+
   /*float:left; */
 }
 

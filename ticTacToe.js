@@ -1,10 +1,3 @@
-/*
-
-function Start(){
-  confirm("Player X Begin")
-};
-
-*/
 
 // set initial user//
 var user= "X";
