@@ -1,0 +1,48 @@
+body{
+  height: 100%;
+  width: 100%;
+}
+
+/*game board*/
+#container
+{
+  height: 650px;
+  width: 606px;
+}
+
+#board{
+  height: 606px;
+  width: 606px;
+}
+
+div{
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  float: left;
+}
+
+.a{
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.b{
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.c{
+  border-bottom: 2px solid black;
+}
+
+.d{
+  border-right: 2px solid black;
+}
+
+button{
+  font-size: 12px;
+  font-weight: bold;
+  padding: 1%;
+  margin: 1%;
+}
