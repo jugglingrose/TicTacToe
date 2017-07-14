@@ -1,25 +1,43 @@
 body{
   height: 100%;
   width: 100%;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p{
+
+  text-align: center;
+
 }
 
 /*game board*/
 #container
 {
-  height: 650px;
-  width: 606px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: 3%;
+
 }
 
 #board{
-  height: 606px;
-  width: 606px;
+  min-width: 615px;
+
 }
 
-div{
+div.box {
   display: inline-block;
   height: 200px;
   width: 200px;
-  float: left;
+  /*float:left; */
 }
 
 .a{
@@ -40,9 +58,11 @@ div{
   border-right: 2px solid black;
 }
 
+/*Reset Button*/
 button{
-  font-size: 12px;
+  font-size: 1em;
   font-weight: bold;
   padding: 1%;
-  margin: 1%;
+  margin-top: 3%;
+
 }
