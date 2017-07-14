@@ -7,7 +7,7 @@
   <link type="text/css" rel="stylesheet" href="ticTacToe.css"/>
   <script src="ticTacToe.js"></script>
 </head>
-<body>
+<body onload="Start()">
   <h1>Tic Tac Toe</h1>
   <h2>Instructions</h2>
   <ul>
@@ -16,18 +16,18 @@
   </ul>
   <div id="container">
   <div id="board">
-    <div class="a" onclick="check(0,0)"></div>
-    <div class="b" onclick="check(0,1)"></div>
-    <div class="c" onclick="check(0,2)"></div>
-    <div class="a" onclick="check(1,0)"></div>
-    <div class="b" onclick="check(1,1)"></div>
-    <div class="c" onclick="check(1,2)"></div>
-    <div class="d" onclick="check(2,0)"></div>
-    <div class="d" onclick="check(2,1)"></div>
-    <div onclick="check(2,2)"></div>
+    <div class="a box" onclick="check(0,0, 'gunther')" id="gunther"></div>
+    <div class="b box" onclick="check(0,1, 'two')" id="two"></div>
+    <div class="c box" onclick="check(0,2, 'three')" id="three"></div>
+    <div class="a box" onclick="check(1,0, 'four')" id='four'></div>
+    <div class="b box" onclick="check(1,1, 'five')" id='five'></div>
+    <div class="c box" onclick="check(1,2, 'six')" id='six'></div>
+    <div class="d box" onclick="check(2,0, 'seven')" id='seven'></div>
+    <div class="d box" onclick="check(2,1, 'eight')" id='eight'></div>
+    <div class= "box"  onclick="check(2,2, 'nine')" id='nine'></div>
   </div>
-  <button onclick="Start()">Start</button>
-  <button>Reset</button>
+  <button onclick="Reset()">Reset</button>
+  <p id='m'></p>
 </div>
 
 </body>
